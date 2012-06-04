@@ -9,7 +9,7 @@ Ext.define("Sencha1.0.view.Main", {
                 activeItem: 0,
 
                 items: {
-                    xtype: 'loginScreen',
+                    xtype: 'loginScreen'
                 }
     }
 });

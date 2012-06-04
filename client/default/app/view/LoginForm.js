@@ -1,6 +1,6 @@
 Ext.create('Ext.form.Panel', {
     fullscreen: true,
-    xtype:'loginScreen'
+    xtype:'loginScreen',
     items: [
         {
             xtype: 'textfield',
