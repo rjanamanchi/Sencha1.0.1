@@ -1,4 +1,4 @@
-Ext.create('Ext.form.Panel', {
+Ext.define("Sencha1.0.view.LoginForm", {
     fullscreen: true,
     xtype:'loginScreen',
 	requires: [
