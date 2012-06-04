@@ -7,7 +7,7 @@ Ext.define("Sencha1.0.view.Main", {
         
         items: [
             {
-                title: 'Welcome',
+                title: 'Welcome1',
                 iconCls: 'home',
                 
                 styleHtmlContent: true,
@@ -33,7 +33,7 @@ Ext.define("Sencha1.0.view.Main", {
                     {
                         docked: 'top',
                         xtype: 'titlebar',
-                        title: 'Getting Started'
+                        title: 'Getting Started2'
                     },
                     {
                         xtype: 'video',
