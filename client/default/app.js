@@ -29,8 +29,9 @@ Ext.application({
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
 
+		alert('Intializing main View');
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('Sencha1.0.view.LoginForm'));
+        Ext.Viewport.add(Ext.create('Sencha1.0.view.Main'));
     },
 
     onUpdated: function() {

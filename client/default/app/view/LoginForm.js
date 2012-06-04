@@ -1,5 +1,6 @@
 Ext.define("Sencha1.0.view.LoginForm", {
 	extend: "Ext.form.Panel",
+	alert('Coming here'),
     xtype:'loginScreen',
 	requires: [
     "Ext.form.FieldSet",
