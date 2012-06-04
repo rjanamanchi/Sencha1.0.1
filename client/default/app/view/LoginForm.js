@@ -1,16 +1,17 @@
 Ext.create('Ext.form.Panel', {
     fullscreen: true,
     xtype:'loginScreen',
-    items: [
+	requires: [
+    "Ext.form.FieldSet",
+    "Ext.field.Text",
+    "Ext.field.Password",
+    "Ext.Img"],
+	config:{
+		items: [
         {
             xtype: 'textfield',
             name: 'name',
             label: 'Name'
-        },
-        {
-            xtype: 'emailfield',
-            name: 'email',
-            label: 'Email'
         },
         {
             xtype: 'passwordfield',
@@ -22,5 +23,6 @@ Ext.create('Ext.form.Panel', {
             name: 'submit',
             label: 'Submit'
         }
-    ]
+		]
+	}
 });
