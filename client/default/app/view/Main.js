@@ -16,6 +16,6 @@ Ext.define("Sencha1.0.view.Main", {
         var form   = this.getLoginForm(),
             values = form.getValues();
 
-        Sencha1.0.authenticate(values);
+        app.authenticate(values);
     }
 });
