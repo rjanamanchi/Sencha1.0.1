@@ -3,7 +3,7 @@ Ext.define("Sencha1.0.view.Main", {
     requires: ['Ext.TitleBar'],
     
     config: {
-        tabBarPosition: 'bottom',
+        tabBarPosition: 'top',
         
         items: [
             {
