@@ -1,22 +1,15 @@
 Ext.define("Sencha1.0.view.Main", {
     extend: 'Ext.tab.Panel',
-       
-        title : 'My Login Form', 
+    requires: ['Ext.TitleBar'],
+    
     config: {
-        refs: {
-            loginForm: 'formpanel'
-        },
-        control: {
-            'formpanel button': {
-                tap: 'doLogin'
-            }
-        }
-    },
+                title: 'Welcome',
+                fullscreen: true,
+                layout: 'card',
+                activeItem: 0,
 
-    doLogin: function() {
-        var form   = this.getLoginForm(),
-            values = form.getValues();
-
-        app.authenticate(values);
+                items: {
+                    xtype: 'loginScreen',
+                }
     }
 });
